@@ -1,0 +1,175 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>Домашнее задание (HTML и CSS #1)</title>
+		<!-- Адаптив -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Кодировка страницы -->
+		<meta charset="UTF-8">
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<div class="wrapper">
+			<div class="content">
+				<div class="hi">
+					<div class='container'>
+						<div class="hi__row">
+							<div class="hi__body">
+								<h1 class="hi__title title">Привет, друг!</h1>
+								<div class="hi_text">
+									<p>Ты смотришь мое <strong> первое домашнее задание на TFS22s Frontend</strong>. <ins>Надеюсь тебе оно придется по душе!</ins></p>
+									<p>Так сказать, <q>В каждом вопросе содержится ответ на вопрос</q>. Поэтому, я решил расписать критерии домашенго задания, чтобы Тебе было удобнее проверять. </p>
+									<p><em>И еще немного текста</em> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo magnam asperiores magni recusandae mollitia. Officiis, provident quo? Facere voluptatibus delectus voluptas eius deserunt, corrupti, magnam laudantium natus explicabo, ea excepturi.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="list">
+					<h2 class="list__title title">Домашнее задание 1. Основы вёрстки.</h2>
+					<div class="list__subblock">
+						<h3 class="list__subtitle title"><ins>Обязательно</ins></h3>
+						<ol class="list__ol">
+							<li>Создать index.html и style.css</li>
+							<li>Добавить в index.html минимальную разметку для html5 документа</li>
+							<li>Подключить файл стилей style.css в index.html</li>
+							<li>Сверстать статью, содержащую:</li>
+						</ol>
+						<ul class="list__ul">
+							<li>Несколько заголовков разного уровня</li>
+							<li>Несколько параграфов текста, в которых есть <strong>жирный</strong>, <em>курсивный</em>, <ins>подчеркнутый текст</ins></li>
+							<li>Маркированный список</li>
+							<li>Нумерованный список</li>
+							<li>Несколько изображений разных размеров</li>
+							<li>Цитату</li>
+							<li><sup>Надстрочный текст</sup> - это он</li>
+							<li><sub>Подстрочный текст</sub> - это он</li>
+							<li>Ссылку на другой сайт, открывающуюся в новой вкладке - смотри ссылки на мои соц сети</li>
+							<li>Таблицу из нескольких колонок (в таблице есть caption и thead)</li>
+							<li>В конце статьи форму обратной связи "Оставьте отзыв о статье" (нужные поля продумайте самостоятельно)</li>
+							<li>Отправку данных с формы реализовывать не нужно =)</li>
+						</ul>
+					</div>
+					<div class="list__subblock">
+						<h3 class="list__subtitle title"><ins>Дополнительно</ins></h3>
+						<ol class="list__ol">
+							<li>Сделать отступ первой строки у каждого абзаца текста (красная строка)</li>
+							<li>Добавить рамку у одного из изображений</li>
+							<li>Ограничить ширину статьи 900px</li>
+							<li>Выровнять статью по центру экрана (по горизонтали)</li>
+							<li>Сделать точки у маркированного списка красными с помощью псевдоэлементов (прочитать про всевдоэлементы ::before,
+							::after)</li>
+						</ol>
+					</div>
+					<div class="list__subblock">
+						<h3 class="list__subtitle title"><ins>Критерии приёмки </ins></h3>
+						<ul class="list__ul">
+							<li>ДЗ без выполненного пункта "дополнительно" оценивается максимально в 80 баллов</li>
+							<li>открытие ссылки в другой вкладке - без js</li>
+							<li>жирный, курсивный и подчеркнутый текст - без css</li>
+							<li>использовать специализированные теги</li>
+						</ul>
+					</div>
+				</div>
+				<div class="photo">
+					<div class='container'>
+						<div class="photo__title title">Изображения</div>
+						<div class="photo__row">
+							<div class="photo__column">
+								<div class="photo__item item">
+									<div class="photo__image">
+										<img class="img img1" src="img/Karta.png" alt="">
+										<p class="photo__text">Карта Тинькоф - куда без нее</p>
+									</div>
+								</div>
+							</div>
+							<div class="photo__column">
+								<div class="photo__item item">
+									<div class="photo__image">
+										<img class="img img2" src="img/100.jpg" alt="">
+										<p class="photo__text">Оценка, которая должна быть у фото</p>
+									</div>
+								</div>
+							</div>
+							<div class="photo__column">
+								<div class="photo__item item">
+									<div class="photo__image">
+										<img class="img img3" src="img/cat.jpg" alt="">
+										<p class="photo__text">Котенок чтобы точно было 100</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="table">
+					<table>
+						<caption>Важная таблица</caption>
+						<thead>
+							<tr>
+								<th>строки</th>
+								<th>столбец 1</th>
+								<th>столбец 2</th>
+								<th>столбец 3</th>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<th>1</th>
+								<td>1 1</td>
+								<td>1 2</td>
+								<td>1 3</td>
+							</tr>
+						</tfoot>
+						<tbody>
+							<tr>
+								<th>2</th>
+								<td>2 1</td>
+								<td>2 2</td>
+								<td>2 3</td>
+							</tr>
+							<tr>
+								<th>3</th>
+								<td>3 1</td>
+								<td>3 2</td>
+								<td>3 3</td>
+							</tr>
+							<tr>
+								<th>4</th>
+								<td>4 1</td>
+								<td>4 2</td>
+								<td>4 3</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="feedback">
+					<form action="/" method="post">
+						<fieldset>
+							<legend class="title">Форма обратной связи</legend>
+							<div class="label"><label> Ваше имя: <input type="text" placeholder="Имя" required></input></label></div>
+							<div class="label"><label> Ваш email: <input type="email" placeholder="Email" required></input></label></div>
+							<div class="label"><label>Текст сообщения:</label></div>
+							<div class="label"><label><textarea placeholder="Оставьте отзыв о статье" required></textarea><label></div>
+							<div class="label"><label><button type="submit">Отправить</button> <button type="reset">Очистить</button></label></div>
+						</fieldset>
+					</form>
+			</div>
+			<footer class="footer">
+				<div class='container'>
+					<div class="footer__row">
+						<div class="footer__text">я в соц. сетях</div>
+						<a class="footer__image" href="https://vk.com/gleb.scheglov"><img src="img/vk.png" alt="Vk"></a>
+						<a class="footer__image" href="https://www.instagram.com/gleb.scheglov"><img src="img/inst.png" alt="inst"></a>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
