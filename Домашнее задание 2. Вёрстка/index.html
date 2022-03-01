@@ -1,0 +1,157 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>Домашнее задание 2. Вёрстка</title>
+		<!-- Адаптив -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Кодировка страницы -->
+		<meta charset="UTF-8">
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<div class="wrapper">
+			<header class="logo">
+				<img src="img/logo.png" alt="">
+			</header>
+			<main class="main">
+				<div class="search-box">
+					<form class="form">
+						<img src="img/Union.png" alt="">
+						<input type="text" placeholder="Поиск фильмов по жанрам и актерам" required>
+					</form>
+				</div>
+				<div class="search_active">
+					<form class="form">
+						<img src="img/Union.png" alt="">
+						<input type="text" placeholder="Поиск фильмов по жанрам и актерам" required>
+						<button class="clear-button" data-clear-selector="input">
+							<img class="imgG" src="img/VectorG.png" alt="">
+							<img class="imgW" src="img/VectorW.png" alt="">
+						</button>
+					</form>
+					<div class="container">
+						<div class="container__box">Как я встретил мамку</div>
+						<div class="container__box">Гоп-стоп</div>
+						<div class="container__box">Весенний дрозд</div>
+						<div class="search_active_more container__box">Белоснежка и семь гномов</div>
+						<div class="search_active_more container__box">Трое в лодке</div>
+						<div class="search_active_more container__box">Бандитский петербург</div>
+						<div class="search_active_more container__box">Спящая женщина и принц</div>
+						<div class="search_active_more container__box">Война миров</div>
+						<div class="search_active_more container__box">Дикий дикий дикий запад</div>
+					</div>
+				</div>
+				<div class="scroll">
+					<form class="form">
+						<img src="img/Union.png" alt="">
+						<input type="text" placeholder="Поиск фильмов по жанрам и актерам" required>
+						<button class="clear-button" data-clear-selector="input">
+							<img class="imgG" src="img/VectorG.png" alt="">
+							<img class="imgW" src="img/VectorW.png" alt="">
+						</button>
+					</form>
+				</div>
+				<div class="search_not_found">
+					<p>Мы не поняли о чем речь ¯\_(ツ)_/¯</p>
+				</div>
+				<div class="search_live results">
+					<p class="results__ihfo">Нашли 82 фильма</p>
+					<div class="results__container">
+						<div class="results__container">
+							<div class="results__container__box-hover"><img src="img/Rectangle.png" alt="">
+								<div class="hover-block">
+									<p class="results__container__box-hover-score gamp"><img src="img/r04.png" alt=""> 4,9</p>
+									<p class="results__container__box-hover-name gamp">Форест гамп</p>
+									<div class="hover-genre-year">
+										<p class="results__container__box-hover-genre gamp">Боевик</p>
+										<p class="results__container__box-hover-year gamp">2017</p>
+									</div>
+								</div>
+							</div>
+							<div class="results__container__box-hover"><img src="img/Rectangle1.png" alt="">
+								<div class="hover-block">
+									<p class="results__container__box-hover-score"><img src="img/r03.png" alt=""> 4,8</p>
+									<p class="results__container__box-hover-name">Спасти рядового Раяна</p>
+									<div class="hover-genre-year">
+										<p class="results__container__box-hover-genre">Боевик</p>
+										<p class="results__container__box-hover-year">2017</p>
+									</div>
+								</div>
+							</div>
+							<div class="results__container__box-hover"><img src="img/Rectangle2.png" alt="">
+								<div class="hover-block">
+									<p class="results__container__box-hover-score"><img src="img/r05.png" alt=""> 3,8</p>
+									<p class="results__container__box-hover-name">Аполон 13</p>
+									<div class="hover-genre-year">
+										<p class="results__container__box-hover-genre">Боевик</p>
+										<p class="results__container__box-hover-year">2005</p>
+									</div>
+								</div>
+							</div>
+							<div class="results__container__box-hover"><img src="img/Rectangle3.png" alt="">
+								<div class="hover-block">
+									<p class="results__container__box-hover-score"><img src="img/r05.png" alt=""> 4,8</p>
+									<p class="results__container__box-hover-name">Инферно</p>
+									<div class="hover-genre-year">
+										<p class="results__container__box-hover-genre">Детектив</p>
+										<p class="results__container__box-hover-year">20011</p>
+									</div>
+								</div>
+							</div>
+							<div class="results__container__box"><img src="img/Rectangle4.png" alt="">
+								<p class="results__container__box-name">Шпионский мост</p>
+								<div class="genre-year">
+									<p class="results__container__box-genre">Боевик, триллер</p>
+								<p class="results__container__box-year">2017</p>
+								</div>
+							</div>
+							<div class="results__container__box"><img src="img/Rectangle4.png" alt="">
+								<img class="results__container__box-none" src="img/Group 3.png" alt="">
+							</div>
+							<div class="results__container__box"><img src="img/Rectangle4.png" alt="">
+								<img class="results__container__box-none" src="img/Group 3.png" alt="">
+							</div>
+							<div class="results__container__box"><img src="img/Rectangle4.png" alt="">
+								<img class="results__container__box-none" src="img/Group 3.png" alt="">
+							</div>
+							<div class="results__container__box"><img src="img/Rectangle4.png" alt="">
+								<img class="results__container__box-none" src="img/Group 3.png" alt="">
+							</div>
+							<div class="results__container__box"><img src="img/Rectangle4.png" alt="">
+								<img class="results__container__box-none" src="img/Group 3.png" alt="">
+							</div>
+							<div class="results__container__box"><img src="img/Rectangle4.png" alt="">
+								<img class="results__container__box-none" src="img/Group 3.png" alt="">
+							</div>
+							<div class="results__container__box"><img src="img/Rectangle4.png" alt="">
+								<img class="results__container__box-none" src="img/Group 3.png" alt="">
+							</div>
+							<div class="results__container__box"><img src="img/Rectangle4.png" alt="">
+								<img class="results__container__box-none" src="img/Group 3.png" alt="">
+							</div>
+							<div class="results__container__box"><img src="img/Rectangle4.png" alt="">
+								<img class="results__container__box-none" src="img/Group 3.png" alt="">
+							</div>
+							<div class="results__container__box"><img src="img/Rectangle4.png" alt="">
+								<img class="results__container__box-none" src="img/Group 3.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer class="footer">
+				<div class='container'>
+					<div class="footer__row">
+						<div class="footer__text">© 2019 Тинькофф Прокат</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
